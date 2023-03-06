@@ -1,18 +1,14 @@
+#!/usr/bin/env python3
+
 import shodan
-import sys
 
-API_KEY = '6KvXzZK8Zt9K6hksjl75uB8QOcLUI1L2'
+api_key = '864UqpknfcTN9HWpkX8Kz5bzzaTiWNWc' # Use your API key here
 
-try:
-    api = shodan.Shodan(API_KEY)
-
-    query = "org:'Drexel University' port:80"
-    results = api.search(query)
-
-    for result in results['matches']:
-        print("Port: %s" % result['port'])
-        print(result['data'])
-
-except Exception as e:
-    print('Error: %s' % e)
-    sys.exit(1)
+def search_org(org):
+    api = shodan.Shodan(api_key)
+    try:
+        results = api.search('org:"{}"'.format(org))
+        return results['matches']
+    except shodan.APIError as e:
+        print('Error: {}'.format(e))
+        return []
