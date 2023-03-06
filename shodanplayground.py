@@ -1,7 +1,7 @@
 import shodan
 import sys
 
-API_KEY = '6KvXzZK8Zt9K6hksjl75uB8QOcLUI1L2'
+API_KEY = '864UqpknfcTN9HWpkX8Kz5bzzaTiWNWc' #jl3993@drexel.edu API 
 
 try:
     api = shodan.Shodan(API_KEY)
