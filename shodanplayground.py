@@ -12,3 +12,6 @@ def search_org(org):
     except shodan.APIError as e:
         print('Error: {}'.format(e))
         return []
+
+if __name__ = "__main__":
+    print("Test") 
