@@ -11,4 +11,9 @@ This application will allow you to see which ports are open in a organization as
 associated with that port. The web application is pulling in information from the following websites: 
 
 shodan.io </br>
-speedguide.net 
+speedguide.net </br>
+
+How to run in your local machine: 
+
+- Run the file in command line to open up a connection with python3 flask_shodan.py
+- Copy any address that the connection is running on
