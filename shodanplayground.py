@@ -13,5 +13,5 @@ def search_org(org):
         print('Error: {}'.format(e))
         return []
 
-if __name__ = "__main__":
+if __name__ == "__main__":
     print("Test") 
