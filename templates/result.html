@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shodan Search Results</title>
+</head>
+<body>
+    <h1>Shodan Search Results</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>IP Address</th>
+                <th>Port</th>
+                <th>Organization</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for result in results %}
+            <tr>
+                <td>{{ result['ip_str'] }}</td>
+                <td>{{ result['port'] }}</td>
+                <td>{{ result['org'] }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
