@@ -17,3 +17,4 @@ How to run in your local machine:
 
 - Run the file in command line to open up a connection with python3 flask_shodan.py
 - Copy any address that the connection is running on
+- Warning! This takes your credits away from your API Key
