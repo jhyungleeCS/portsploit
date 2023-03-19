@@ -1,6 +1,6 @@
 # PortSploit
 
-Hello! **PortSploit** is a web application that allows users to recieve information about a network's vulnerabilities including open ports in a network. 
+**PortSploit** is a web application that allows users to recieve information about a network's vulnerabilities including open ports in a network. 
 Ports are endpoints used for communication in a network that allows data to be sent and recieved. 
 
 Open ports are a risk to a network because this gives a potential access point for attackers to gain unauthorized access. 
