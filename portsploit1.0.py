@@ -12,7 +12,7 @@ print(os.path.abspath('results.csv'))
 # use print(os.path.abspath('templates' or 'static') to figure out where flask is looking for index.html and styles.css
 # it is important that flask knows where index.html is and styles.css is
 
-API_KEY = 'AJLsIFeKhIwUR4lV3p5nAtOOOcUq2slu' #parkers api key #'6KvXzZK8Zt9K6hksjl75uB8QOcLUI1L2' #kevins api key
+API_KEY = '' #Add API key
 
 # custom function to generate HTML table with hyperlinks
 def generate_html_table(dataframe, url_column, org):
