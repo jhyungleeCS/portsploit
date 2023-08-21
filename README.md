@@ -28,6 +28,12 @@ speedguide.net </br>
 ## How to run in your local machine: 
 
 <li>Extract the PortSploit 1.0 zip </li>
-<li>Open your IDE and install the following modules: 
-</li>
-
+<li>Open your IDE and install the following modules: </li>
+  <ul>Flask</ul>
+  <ul>Shodan</ul>
+  <ul>csv</ul>
+  <ul>pandas</ul>
+  <ul>os</ul>
+<li>Move every file to your root app directory</li>
+<li>Run PortSploit1.0.py</li>
+<li>Access the GUI by clicking on the local machine link:5000 </li>
