@@ -1,0 +1,178 @@
+body {
+  font-family: 'Helvetica Nue', sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  background-color: #F8EEDA; /* change background color */
+
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.cell-content {
+    display: block;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+h1, h2, h3 {
+  font-weight: normal;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+a {
+display: inline-block;
+color: #333;
+
+}
+
+body {
+    text-align: center;
+}
+
+a:hover {
+  color: #555;
+}
+
+form.box {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+form input[type="text"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+form input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: #555;
+}
+
+table {
+    border-collapse: collapse;
+    width:100%;
+}
+
+
+img {
+    width: 300px;
+    height: auto; /* maintain aspect ratio */
+    display: block; /* center horizontally */
+    margin-left: auto; /* center horizontally */
+    margin-right: auto; /* center horizontally */
+}
+
+h1 {
+    font-family: Arial, sans-serif; /* change font */
+    color: brown; /* change color */
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+th:first-child,
+td:first-child {
+    width: 15%;
+}
+
+th:nth-child(2),
+td:nth-child(2) {
+    width: 10%;
+}
+
+th:nth-child(3),
+td:nth-child(3) {
+    width: 15%;
+}
+
+th:nth-child(4),
+td:nth-child(4) {
+    width: 20%;
+}
+
+
+tr:nth-child(even) {background-color:#f2f2f2}
+
+td {
+    padding: 4px 0;
+    word-wrap: break-word;
+}
+
+td {
+    max-width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+th, td {
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+.no-margin-form {
+    padding: 0px;
+    /*padding-left:5vw;*/
+}
+.no-margin-form:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+button.link:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+button.link {
+    border: none;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 1em;
+    font-family: serif;
+}
+button.link:hover {
+    color: red;
+}
+

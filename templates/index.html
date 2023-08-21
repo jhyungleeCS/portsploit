@@ -1,16 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>PortSploit</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.4/css/jquery.dataTables.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.js"></script>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
-    <h1>PortSploit</h1>
-    <h2>Enter a port number: </h2>
-    <form action="/search" method="post">
-        <label for="port">Port Number: </label>
-        <input type="text" name="port" id="port">
-        <input type="submit" value="Search">
-    </form>
+    <a href="/"><img src="{{ url_for('static', filename='pirateship.png') }}" alt="My Image"></a>
+    <div class="center">
+        <form class="box" method="post">
+            Organization: (Enter Organization, Example: Drexel University) <input type="text" name="org"><br>
+            Port: <input type="text" name="port"><br>
+            <input type="submit" value="Submit"><br>
+        </form>
+    </div>
+
+    <div>{{ table_html|safe }}</div>
+
+    <script>
+    $(document).ready(function() {
+        $('#resultsTable').DataTable();
+    });
+    </script>
 </body>
 </html>
-
