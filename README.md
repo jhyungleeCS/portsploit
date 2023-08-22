@@ -1,6 +1,6 @@
 # PortSploit
 
-**PortSploit** is a one-stop show web application reconnaissance tool that allows users to input an organization and receive information about accessible IPs and open ports, pairing that with a known vulnerabilities database.
+**PortSploit** is a one-stop shop web application reconnaissance tool that allows users to input an organization and receive information about accessible IPs and open ports, pairing that with a known vulnerabilities database.
 
 
 ## Description: 
